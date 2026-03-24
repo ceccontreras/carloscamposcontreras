@@ -226,6 +226,7 @@ loadRepos();
         vid.id = 'collage-overlay-img';
         vid.controls = true;
         vid.autoplay = true;
+        vid.muted = true;
         vid.loop = true;
         vid.playsInline = true;
         vid.innerHTML = `<source src="${videoSrc}" type="video/mp4" />`;
