@@ -3,54 +3,351 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ceccontreras // portfolio</title>
+  <title>Carlos Campos // Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=VT323&family=Share+Tech+Mono&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
 
+  <div id="loader">
+    <div class="loader-inner">
+      <div class="loader-label">INITIALIZING SYSTEM<span class="loader-dots"></span></div>
+      <div class="loader-bar-wrap">
+        <div class="loader-bar" id="loader-bar"></div>
+      </div>
+      <div class="loader-pct" id="loader-pct">0%</div>
+    </div>
+  </div>
+
   <header>
-    <div class="logo">CECC<span></div>
+    <div class="logo">CCC<span>_</span></div>
     <nav>
-      <a href="#about">ABOUT</a>
+      <a href="#about">ABOUT ME</a>
+      <a href="#stack">STACK</a>
+      <a href="#data-impact">DATA</a>
+      <a href="#featured">SCHOOL</a>
       <a href="#projects">PROJECTS</a>
+      <a href="#contact">CONTACT</a>
       <a href="https://github.com/ceccontreras" target="_blank">GITHUB</a>
     </nav>
   </header>
 
-  <div class="hero" id="about">
+  <!-- ── HERO ── -->
+  <div class="hero" id="hero">
     <p class="hero-tag">> This is the webpage of:</p>
     <div class="hero-top">
-      <h1>CARLOS<br>CAMPOS<span class="cursor"></span></h1>
+      <h1>CARLOS<br>CAMPOS<br>CONTRERAS<span class="cursor"></span></h1>
       <div class="headshot-wrap">
-        <img id="headshot" src="Carlos Campos 1.png" alt="Carlos Campos" />
+        <img id="headshot" src="media/valencia4.png" alt="Carlos Campos" />
         <div class="headshot-label">> IDENTIFIED</div>
       </div>
     </div>
-    <p>
-      WELCOME, YOU HAVE FOUND THE PAGE OF CARLOS CAMPOS CONTRERAS.
-      HERE YOU WILL FIND SELECTION OF PROJECTS, INTERESTS, AND OTHER INFORMATION.
-        FEEL FREE TO CONTACT THIS INDIVIDUAL!
+    <p class="hero-subtitle">Software Developer &bull; Backend Systems &bull; Data &amp; Creative Technology</p>
+    <p class="hero-signature">"I build systems that are useful, intentional, and human."</p>
+    <p class="hero-bio">
+      I'm a software developer based in Orlando focused on building useful, well-crafted systems.
+      From full-stack applications to data dashboards and creative digital experiments, I care about
+      both how things work and how they feel to use.
     </p>
     <div class="hero-links">
-      <a class="btn" href="https://github.com/ceccontreras" target="_blank">// GITHUB PROFILE</a>
+      <a class="btn" href="https://github.com/ceccontreras" target="_blank">// GITHUB</a>
       <a class="btn" href="https://www.linkedin.com/in/carlos-campos-contreras/" target="_blank">// LINKEDIN</a>
+<a class="btn" href="resume.pdf" target="_blank">// RESUME</a>
     </div>
   </div>
 
   <hr class="divider"/>
 
+  <!-- ── ABOUT ── -->
+  <section id="about">
+    <div class="section-title">> ABOUT</div>
+    <div class="section-sub">SYSTEM PROFILE — CARLOS CAMPOS CONTRERAS</div>
+    <div class="about-body">
+      <p>
+        Recent Software Development graduate from Valencia College with hands-on experience building
+        systems that operate in real environments. I work across the full stack — backend APIs,
+        relational databases, data dashboards, and mobile applications.
+      </p>
+      <p>
+        I'm drawn to work that has genuine utility: tools that make better decisions possible,
+        platforms that reduce friction for real users, and systems that hold up under pressure.
+        Whether collaborating with a city government or building something independently, I bring
+        the same level of care to how it works and how it feels.
+      </p>
+    </div>
+  </section>
+
+  <hr class="divider"/>
+
+  <!-- ── STACK ── -->
+  <section id="stack">
+    <div class="section-title">> STACK</div>
+    <div class="section-sub">CORE TECHNOLOGIES — LOADED</div>
+    <div class="stack-grid">
+      <div class="stack-group">
+        <div class="stack-label">[LANGUAGES]</div>
+        <div class="stack-items">
+          <span>Java</span>
+          <span>Python</span>
+          <span>JavaScript</span>
+          <span>C++</span>
+          <span>Swift</span>
+        </div>
+      </div>
+      <div class="stack-group">
+        <div class="stack-label">[FRAMEWORKS]</div>
+        <div class="stack-items">
+          <span>Node.js</span>
+          <span>Express</span>
+          <span>React</span>
+          <span>SwiftUI</span>
+        </div>
+      </div>
+      <div class="stack-group">
+        <div class="stack-label">[DATA &amp; TOOLS]</div>
+        <div class="stack-items">
+          <span>MySQL</span>
+          <span>SQL</span>
+          <span>Tableau</span>
+          <span>Chart.js</span>
+          <span>Git</span>
+          <span>GitHub</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider"/>
+
+  <!-- ── DATA & IMPACT ── -->
+  <section id="data-impact">
+    <div class="section-title">> DATA &amp; IMPACT</div>
+    <div class="section-sub">REAL-WORLD WORK — VERIFIED</div>
+    <div class="impact-grid">
+      <div class="impact-item">
+        <div class="impact-icon">[01]</div>
+        <div class="impact-text">Built interactive dashboards using Tableau and Excel to visualize student progression, retention rates, and program completion metrics.</div>
+      </div>
+      <div class="impact-item">
+        <div class="impact-icon">[02]</div>
+        <div class="impact-text">Developed systems to identify at-risk students early, enabling timely intervention before outcomes were affected.</div>
+      </div>
+      <div class="impact-item">
+        <div class="impact-icon">[03]</div>
+        <div class="impact-text">Analyzed large datasets and translated findings into clear reports delivered to leadership and stakeholders.</div>
+      </div>
+      <div class="impact-item">
+        <div class="impact-icon">[04]</div>
+        <div class="impact-text">Collaborated directly with the City of Orlando to modernize a public-facing platform — turning a paper-based process into a scalable digital system.</div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="divider"/>
+
+  <!-- ── FEATURED WORK ── -->
+  <section id="featured">
+    <div class="section-title">> SCHOOL RELATED WORK</div>
+    <div class="section-sub">SELECTED PROJECTS</div>
+    <div class="featured-grid">
+
+      <div class="featured-card">
+        <div class="featured-index">[01]</div>
+        <div class="featured-name">HOLA Club Attendance Tracker</div>
+        <div class="featured-desc">
+          A web-based attendance and data system built for Valencia College's HOLA club.
+          Handles member check-ins with validation, generates exportable reports, and tracks
+          engagement over time — replacing manual spreadsheets with something maintainable and reliable.
+        </div>
+        <div class="featured-impact">→ Helps organizations track engagement and make data-driven decisions</div>
+        <div class="featured-footer">
+          <div class="featured-tags">
+            <span>Python</span><span>Flask</span><span>MySQL</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="featured-card">
+        <img class="featured-img" src="connect_orlando_image.png" alt="IP Access Orlando — ConnectOrlando app screenshot" />
+        <div class="featured-index">[02]</div>
+        <div class="featured-name">IP Access Orlando</div>
+        <div class="featured-desc">
+          A full-stack web and mobile platform built in real collaboration with the City of Orlando
+          to modernize their device loan program. Digitized the intake process, reduced administrative
+          overhead, and improved access to technology for underserved communities.
+        </div>
+        <div class="featured-impact">→ Reduces manual processes and makes technology more accessible</div>
+        <div class="featured-footer">
+          <div class="featured-tags">
+            <span>JavaScript</span><span>Node.js</span><span>React</span>
+          </div>
+          <a class="card-link" href="https://github.com/ipaccess-valencia-g2/ip-access-orlando" target="_blank">VIEW →</a>
+        </div>
+      </div>
+
+      <div class="featured-card">
+        <img class="featured-img" src="Image1.png" alt="FitGame app screenshot" />
+        <div class="featured-index">[03]</div>
+        <div class="featured-name">FitGame</div>
+        <div class="featured-desc">
+          An iOS fitness application that uses gamification to build sustainable workout habits.
+          Built with Swift and SwiftUI following MVVM architecture — tracking user progress and
+          rewarding consistency to turn fitness into something people actually stick with.
+        </div>
+        <div class="featured-impact">→ Encourages long-term behavior change through game-like progression</div>
+        <div class="featured-footer">
+          <div class="featured-tags">
+            <span>Swift</span><span>SwiftUI</span><span>MVVM</span>
+          </div>
+          <a class="card-link" href="https://github.com/ceccontreras/FitGame" target="_blank">VIEW →</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <hr class="divider"/>
+
+  <!-- ── ALL PROJECTS ── -->
   <section id="projects">
-    <div class="section-title">> PROJECTS</div>
+    <div class="section-title">> MORE PROJECTS</div>
     <div class="section-sub">FETCHING FROM GITHUB API — LIVE DATA</div>
     <div id="projects-grid">
       <div class="status-msg">LOADING REPOSITORIES<span>_</span></div>
     </div>
   </section>
 
+
+  <hr class="divider"/>
+
+  <!-- ── BEYOND CODING ── -->
+  <section id="beyond">
+    <div class="section-title">> BEYOND CODING</div>
+    <div class="section-sub">BACKGROUND PROCESSES — RUNNING</div>
+    <p class="beyond-body">
+      Outside of code, I stay active — running long distances, competing in races, and playing chess.
+      I served as President of the Valencia College Chess Club, where I helped organize matches,
+      events, and build a small community around the game.
+      <br><br>
+      During my time at Valencia College, I was also deeply involved on campus. As a student leader
+      and member of the HOLA Club, I helped organize events, coordinate resources, and create spaces
+      for student engagement. That experience taught me how to work with people, manage logistics,
+      and take ownership of real responsibilities.
+      <br><br>
+      Today, as an Enrollment Outreach Ambassador, I work with student data, support outreach efforts,
+      and contribute to systems that help students stay on track and succeed.
+      <br><br>
+      While studying, I also worked at Sam's Club, balancing academics, work, and personal growth —
+      an experience that strengthened my discipline, time management, and consistency.
+  
+    </p>
+
+    <div class="collage-grid">
+
+      <!-- large: running -->
+      <div class="collage-cell collage-large">
+        <img src="media/running1.png" alt="Marathon running" class="collage-img" />
+        <div class="collage-label">MARATHON RUNNING</div>
+      </div>
+
+      <!-- small: chess -->
+      <div class="collage-cell">
+        <img src="media/chess2.jpeg" alt="Chess" class="collage-img" />
+        <div class="collage-label">CHESS</div>
+      </div>
+
+      <!-- small: running video -->
+      <div class="collage-cell" data-video="media/running2.mp4">
+        <img src="media/running3.png" alt="Running" class="collage-img" />
+        <div class="collage-label">RUNNING ▶</div>
+      </div>
+
+      <!-- large: valencia -->
+      <div class="collage-cell collage-wide">
+        <img src="media/valencia1.png" alt="Valencia" class="collage-img" />
+        <div class="collage-label">VALENCIA COLLEGE</div>
+      </div>
+
+      <!-- small: valencia -->
+      <div class="collage-cell">
+        <img src="media/valencia2.png" alt="Valencia" class="collage-img" />
+        <div class="collage-label">CAMPUS LIFE</div>
+      </div>
+
+      <!-- small: valencia3 -->
+      <div class="collage-cell">
+        <img src="media/valencia3.png" alt="Valencia" class="collage-img" />
+        <div class="collage-label">CAMPUS LIFE</div>
+      </div>
+
+      <!-- small: valencia5 -->
+      <div class="collage-cell">
+        <img src="media/valencia5.png" alt="Valencia" class="collage-img" />
+        <div class="collage-label">CAMPUS LIFE</div>
+      </div>
+
+
+      <!-- small: sams1 -->
+      <div class="collage-cell">
+        <img src="media/sams1.png" alt="Sam's Club" class="collage-img" />
+        <div class="collage-label">SAM'S CLUB</div>
+      </div>
+
+      <!-- small: sams2 -->
+      <div class="collage-cell">
+        <img src="media/sams2.png" alt="Sam's Club" class="collage-img" />
+        <div class="collage-label">SAM'S CLUB</div>
+      </div>
+
+      <!-- small: chess video -->
+      <div class="collage-cell" data-video="media/chess1.1.mp4">
+        <img src="media/chess2.jpeg" alt="Chess" class="collage-img" />
+        <div class="collage-label">CHESS ▶</div>
+      </div>
+
+      <!-- small: sams video -->
+      <div class="collage-cell" data-video="media/sams3.mp4">
+        <img src="media/sams3.3.png" alt="Sam's Club" class="collage-img" />
+        <div class="collage-label">SAM'S CLUB ▶</div>
+      </div>
+
+    </div>
+  </section>
+
+  <hr class="divider"/>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact">
+    <div class="contact-wrap">
+
+      <div class="contact-left">
+        <div class="section-title">> CONTACT</div>
+        <div class="section-sub">GET IN TOUCH — AVAILABLE</div>
+        <div class="contact-info">
+          <div class="contact-info-row">// ceccontreras5@gmail.com</div>
+          <div class="contact-info-row">
+            <a href="https://www.linkedin.com/in/carlos-campos-contreras/" target="_blank">// LINKEDIN</a>
+          </div>
+          <div class="contact-info-row">
+            <a href="https://github.com/ceccontreras" target="_blank">// GITHUB</a>
+          </div>
+        </div>
+        <a class="btn" href="resume.pdf" target="_blank" style="margin-top:2rem; display:inline-block;">// DOWNLOAD RESUME</a>
+      </div>
+
+      <form class="contact-form" action="https://formspree.io/f/mbdznapg" method="POST">
+        <input class="contact-input" type="text" name="name" placeholder="Your Name" required />
+        <input class="contact-input" type="email" name="email" placeholder="Your Email" required />
+        <textarea class="contact-input contact-textarea" name="message" placeholder="Your Message" required></textarea>
+        <button class="btn" type="submit">// SEND</button>
+      </form>
+
+    </div>
+  </section>
+
   <footer>
-    <span>> ceccontreras.github.io</span>
-    <span>BUILT WITH HTML + GITHUB API</span>
+    <span>> carloscamposcontreras.com</span>
+    <span>Carlos Campos &copy; 2025 &mdash; Built with HTML + GitHub API</span>
   </footer>
 
   <script src="script.js"></script>
