@@ -1,3 +1,5 @@
+<img width="3418" height="1568" alt="image" src="https://github.com/user-attachments/assets/932c277a-6d50-421d-8da0-2a620c0c258c" />
+
 # Carlos Campos Portfolio
 
 A personal portfolio website built to showcase my work as a software developer, including featured projects, technical stack, real-world data experience, and interests beyond coding.
