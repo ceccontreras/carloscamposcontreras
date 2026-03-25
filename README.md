@@ -2,7 +2,7 @@
 
 A personal portfolio website built to showcase my work as a software developer, including featured projects, technical stack, real-world data experience, and interests beyond coding.
 
-The site uses a retro terminal / CRT-inspired design and includes dynamic GitHub repository loading, a contact form, interactive media sections, and a fully custom front-end built with HTML, CSS, and JavaScript.
+The site uses a retro terminal / matrix-inspired design and includes dynamic GitHub repository loading, a contact form, interactive media sections, and a fully custom front-end built with HTML, CSS, and JavaScript.
 
 ## Live Overview
 
