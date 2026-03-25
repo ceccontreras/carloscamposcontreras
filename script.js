@@ -239,4 +239,35 @@ loadRepos();
   });
 
   overlay.addEventListener('click', () => overlay.classList.remove('visible'));
+
+  // ── PROJECT IMAGE LIGHTBOX ──────────────────────────────────────────────
+  function openImgLightbox(src, alt) {
+    const container = overlay.querySelector('#collage-overlay-media');
+    const label = overlay.querySelector('#collage-overlay-label');
+    container.innerHTML = '';
+    label.textContent = alt || '';
+    const img = document.createElement('img');
+    img.id = 'collage-overlay-img';
+    img.src = src;
+    img.alt = alt || '';
+    container.appendChild(img);
+    overlay.classList.add('visible');
+  }
+
+  // School related projects — static images
+  document.querySelectorAll('.featured-img').forEach(img => {
+    img.style.cursor = 'zoom-in';
+    img.addEventListener('click', e => {
+      e.stopPropagation();
+      openImgLightbox(img.src, img.alt);
+    });
+  });
+
+  // More projects — dynamic cards, use event delegation
+  document.getElementById('projects-grid').addEventListener('click', e => {
+    const img = e.target.closest('.card-img');
+    if (!img) return;
+    e.stopPropagation();
+    openImgLightbox(img.src, img.alt);
+  });
 })();

@@ -428,6 +428,7 @@ section {
   display: flex;
   flex-direction: column;
   gap: 0.7rem;
+  overflow: hidden;
   transition: border-color 0.2s, box-shadow 0.2s;
   animation: fadeUp 0.4s ease both;
   position: relative;
@@ -440,6 +441,13 @@ section {
   object-position: top;
   border: 1px solid var(--border);
   margin-bottom: 0.3rem;
+  filter: grayscale(0.4) sepia(0.3) hue-rotate(80deg);
+  transition: filter 0.3s, transform 0.35s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.featured-card:hover .featured-img {
+  filter: grayscale(0) sepia(0) hue-rotate(0deg);
+  transform: scale(1.03);
 }
 
 .featured-card::after {
@@ -549,12 +557,14 @@ section {
   height: 180px;
   object-fit: contain;
   display: block;
+  cursor: zoom-in;
   filter: grayscale(0.4) sepia(0.3) hue-rotate(80deg);
-  transition: filter 0.3s;
+  transition: filter 0.3s, transform 0.35s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .project-card:hover .card-img {
   filter: grayscale(0) sepia(0) hue-rotate(0deg);
+  transform: scale(1.05);
 }
 
 .card-body {
