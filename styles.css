@@ -829,16 +829,25 @@ footer {
   box-shadow: var(--glow);
 }
 
-.impact-icon {
+.impact-index {
   font-size: 11px;
   color: var(--dim-green);
   letter-spacing: 2px;
 }
 
+.impact-org {
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: var(--dim-green);
+  border-left: 2px solid var(--border);
+  padding-left: 0.5rem;
+  margin-bottom: 0.2rem;
+}
+
 .impact-text {
   font-size: 13px;
   color: var(--dark-green);
-  line-height: 1.75;
+  line-height: 1.8;
   text-transform: none;
   letter-spacing: 0.3px;
 }
