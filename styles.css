@@ -386,6 +386,9 @@ section {
 .stack-icon-item img {
   width: 52px;
   height: 52px;
+  max-width: 52px;
+  max-height: 52px;
+  display: block;
   object-fit: contain;
   transition: transform 0.2s;
 }
